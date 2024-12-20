@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "worldseamsfix",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "World Seams Fix",
+  "description": "Fixes block seams.",
   "authors": [
-    "Turnip Labs"
+    "Big Sir"
   ],
   "contact": {
     "homepage": "",
@@ -19,25 +19,23 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"bigsir.worldseamsfix.WorldSeamsFix"
     ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+		"beforeClientStart": [
+			"bigsir.worldseamsfix.WorldSeamsFix"
 		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+		"afterClientStart": [
+			"bigsir.worldseamsfix.WorldSeamsFix"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "worldseamsfix.mixins.json"
   ],
 
   "depends": {
 		"minecraft": "^7.2-beta",
-    "fabricloader": ">=0.15.5"
+    "fabricloader": ">=0.15.5",
+		"halplibe": ">=4.1.3"
   },
   "suggests": {
   }
