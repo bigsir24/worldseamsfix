@@ -9,12 +9,12 @@
     "Big Sir"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://modrinth.com/mod/world-seams-fix",
     "sources": ""
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
