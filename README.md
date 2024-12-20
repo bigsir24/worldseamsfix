@@ -5,3 +5,4 @@ A mod for Better Than Adventure that fixes block seams by slightly increasing th
 
 ## Comparison:
 (This issue may not be as apparent on some systems)
+![fix](https://github.com/user-attachments/assets/2ed79c63-cc55-4e93-855d-1ba5664e6bbc)
